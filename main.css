@@ -239,12 +239,12 @@
 .paginaTrends .section1, 
 .paginaTrends .section2, 
 .paginaTrends .section3 {
-    width: 27.3%; /* Garantir que as sections ocupem toda a largura disponível */
+    width: 27.3%; 
     font-size: 21px;
     text-align: center;
     padding: 10px;
-    border: 3px solid #737373; /* Borda para todas as sections */
-    margin-bottom: 10px; /* Adiciona um espaço entre as sections */
+    border: 3px solid #737373; 
+    margin-bottom: 10px; 
     border-radius: 10px;
     margin-top: 10px;
     
@@ -284,12 +284,12 @@
 .paginaTrends .trends2 .section1, 
 .paginaTrends .trends2 .section2, 
 .paginaTrends .trends2 .section3 {
-    width: 51.3%; /* Garantir que as sections ocupem toda a largura disponível */
+    width: 51.3%; 
     font-size: 21px;
     text-align: center;
     padding: 18px;
-    border: 3px solid #737373; /* Borda para todas as sections */
-    margin-bottom: 10px; /* Adiciona um espaço entre as sections */
+    border: 3px solid #737373; 
+    margin-bottom: 10px; 
     border-radius: 10px;
     margin-top: 12px;
     margin-left: 220px;
@@ -329,12 +329,12 @@
 .paginaTrends .trends3 .section1, 
 .paginaTrends .trends3 .section2, 
 .paginaTrends .trends3 .section3 {
-    width: 23.5%; /* Garantir que as sections ocupem toda a largura disponível */
+    width: 23.5%; 
     font-size: 21px;
     text-align: center;
     padding: 15px;
-    border: 3px solid #737373; /* Borda para todas as sections */
-    margin-bottom: 10px; /* Adiciona um espaço entre as sections */
+    border: 3px solid #737373; 
+    margin-bottom: 10px; 
     border-radius: 10px;
     margin-top: 12px;
     margin-left: 1320px;
