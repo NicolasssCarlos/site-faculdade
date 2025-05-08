@@ -1,0 +1,185 @@
+.icons {
+    width: 99%;
+    height: 8.5vh;
+    background-color: #696969;
+    margin-bottom: 3vh;
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 1vw;
+    flex-wrap: wrap;
+}
+@media (max-width: 600px) {
+    .paginaOds .social-icons button {
+        font-size: 1.2rem;
+    }
+}
+.icons button {
+    margin-right: 1vw;
+    border: none;
+    outline: none;
+    background: none;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 1vh 1vw;
+    justify-content: flex-start;
+    transition: all 0.3s ease;
+}
+.icons button:hover {
+    background-color: #555;
+    transform: scale(1.0);
+    padding: 1.7rem;
+}
+.social-icons {
+    margin-left: auto;
+    background: none;
+    cursor: pointer;
+    justify-content: flex-end;
+    display: flex;
+    gap: 1.5vw;
+    padding: 0.3vh 0.7vw;
+    flex-wrap: wrap;
+}
+.social-icons button {
+    font-size: 1.7rem;
+    transition: all 0.3s ease;
+}
+.social-icons button:hover {
+    background-color: #555;
+    transform: scale(0.9);
+    padding: 1.3rem;
+}
+.paginaOds {
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    background-color: #000;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+.paginaOds .info {
+    background-color: #000;
+    padding-bottom: 2rem;
+    margin: 2rem;
+    align-items: center;
+}
+.paginaOds .about {
+    background-color: #696969;
+    padding-bottom: 3rem;
+    border-radius: 0.7%;
+    width: 95%;
+    margin-left: 3rem;
+    padding-top: 2rem;
+}
+@media (max-width: 600px) {
+    .paginaOds .about {
+        margin-left: 0.6rem;
+    }
+}
+.paginaOds .odsss {
+    background-color: #006633;
+    margin-top: 3rem;
+    width: 91%;
+    margin-left: 3rem;
+    border-radius: 0.7%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 2rem;
+    padding: 2vw;
+}
+@media (max-width: 600px) {
+    .paginaOds .odsss {
+        margin-left: 0.6rem;
+    }
+}
+.paginaOds .odsss .first header{
+    font-size: 3rem;
+    margin-bottom: 0;
+    padding-bottom: rem;
+}
+.paginaOds .odsss .first h1 {
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.paginaOds  .first i {
+    font-size: 3rem;
+    justify-content: flex-end;
+    position: relative;
+    display: flex;
+    margin-right: 2rem;
+}
+.paginaContato {
+    font-family: "Inter", sans-serif;
+    font-size: 2rem;
+    background-color: #000;
+    color: #fff;
+}
+.paginaContato .info {
+    font-size: 3.8rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 3rem;
+    padding-right:  0rem;
+}
+.paginaContato section {
+    border: solid #555 0.3rem;
+    padding: 3rem;
+    width: 50%;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+} 
+.paginaContato section h2 {
+    font-weight: normal;
+}
+.paginaContato section button {
+    font-size: 1.5rem;
+    font-family: "Inter", sans-serif;
+    padding: 1rem 2rem;
+    font-weight: normal;
+    margin-left: -1.8rem;
+    cursor: pointer;
+    background: transparent;
+    color: #fff;
+    border: none;
+    margin-right: 2rem;
+}
+.paginaContato section button:hover {
+    color: #555;
+    transform: scale(1.2);
+}
+@media (max-width: 600px) {
+    .social-icons button {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 600px) {
+    .paginaOds .social-icons button {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 600px) {
+     .paginaOds .icons button {
+        padding-left: 0.6rem;
+    }
+}
+@media (max-width: 600px) {
+    .paginaContato .icons button {
+        padding-left: 0.6rem;
+   }
+}
+@media (max-width: 600px) {
+    .paginaContato .info {
+        font-size: 2rem;
+        padding-right: 0rem;
+   }
+}
+@media (max-width: 600px) {
+    .paginaContato section h2 {
+        font-size: 1.0rem;
+   }
+}
