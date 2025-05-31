@@ -60,7 +60,6 @@
     flex-wrap: wrap;
 }
 
-
 .paginaSobre .icons {
     width: 99%;
     height: 9vh;
@@ -119,7 +118,7 @@
     font-size: 1.8rem;
     padding: 5vw;
     background-color: #36393f;
-    color: #000;
+    color: #cccccc;
     text-align: left;
 }
 
@@ -151,7 +150,7 @@
 .about h5 {
     font-size: 2rem;
     font-weight: bold;
-    margin-top: 4vh;
+    margin-top: 3.9vh;
     margin-bottom: 2vh;
     margin-left: 2vw;
 }
@@ -484,16 +483,151 @@
         font-size: 1.5rem;
         margin: 3rem;
     }
-
-
-
 }
 
-
 #dicas {
-
-
     font-size: 2.3rem;
 }
 
+@media (min-width: 1080px) and (max-width: 1100px) {
+    #dicas p {
+        font-size: 3.5rem;
+        margin: 3rem;
+    }
+}
 
+@media (min-width: 1080px) and (max-width: 1100px){
+    .paginaSobre .showTips {
+        font-size: 3rem;
+        width: 70%;
+        height: auto;
+        padding: 2vw;
+        border-radius: 0.7rem;
+        background-color: #595959;
+        color: #fff;
+    }
+}
+
+@media (min-width: 1080px) and (max-width: 1100px) {
+    .paginaSobre .social-icons button {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 1080px) and (max-width: 1100px) {
+    .paginaSobre .about section img {
+        width: 100%;
+        height: auto;
+        min-width: 105;
+        margin-bottom: 3vw;
+        margin-top: 3vw;
+    }
+}
+
+@media (min-width: 1070px) and (max-width: 1100px) {
+    .paginaSobre .icons button {
+        margin-left: auto;
+        background: none;
+        cursor: pointer;
+        justify-content: flex-end;
+        display: flex;
+        gap: 3vw;
+        padding: 0.3vh 0.7vw;
+        flex-wrap: wrap;
+        transition: all 0.3s ease;
+        font-size: 2.7rem;
+    }
+}
+
+@media (min-width: 1070px) and (max-width: 1100px) {
+    .icons button {
+        margin-right: 2vw;
+        border: none;
+        outline: none;
+        background: none;
+        color: #fff;
+        font-size: 2.5rem;
+        cursor: pointer;
+        padding: 1vh 1vw;
+        justify-content: flex-start;
+        transition: all 0.3s ease;
+    }
+}
+
+@media (min-width: 1070px) and (max-width: 1100px) {
+    .about {
+        font-size: 5rem;
+        padding: 5vw;
+        background-color: #36393f;
+        color: #cccccc;
+        text-align: left;
+    }
+}
+
+@media (min-width: 1070px) and (max-width: 1100px) {
+    .about h5 {
+        font-size: 5rem;
+        font-weight: bold;
+        margin-top: 3.9vh;
+        margin-bottom: 2vh;
+        margin-left: 2vw;
+    }
+}
+
+@media (min-width: 1070px) and (max-width: 1100px) {
+    .about h2 {
+        font-size: 7rem;
+        text-align: left;
+        display: flex;
+        margin-left: 2vw;
+        font-weight: normal;
+        margin-bottom: 5vh;
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 1070px) and (max-width: 1100px) {
+    .social-icons button {
+        font-size: 3rem;
+        transition: all 0.3s ease;
+    }
+}
+
+@media (min-width: 1070px) and (max-width: 1100px) {
+    .paginaSobre .about section {
+        color: #fff;
+        list-style-type: none;
+        font-size: 3.5rem;
+    }
+}
+
+@media (min-width: 1070px) and (max-width: 1100px) {
+    .paginaSobre .about section h1 {
+        font-size: 5rem;
+        margin: 0;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (min-width: 1070px) and (max-width: 1100px) {
+    .paginaSobre .about .first h1 {
+        font-size: 5rem;
+        text-align: left;
+        margin-left: 0.3rem;
+        color: #fff;
+        margin-bottom: 5vh;
+        background-color: #262626;
+    }
+}
+
+@media (min-width: 1070px) and (max-width: 1100px) {
+    .paginaSobre .info {
+        font-size: 8rem;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        background-color: #000;
+        padding-bottom: 6vh;
+    }
+}
